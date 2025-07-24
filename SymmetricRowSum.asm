@@ -81,7 +81,7 @@ foo3:	xor dx, dx
 	inc cx
 	test ax, ax
 	jnz foo3
-foo4;	pop dx
+foo4:	pop dx
 	add dl, '0'
 	mov ah, 10
 	int 21h
